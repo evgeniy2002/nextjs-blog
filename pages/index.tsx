@@ -1,4 +1,4 @@
-import { getSortedPostsData } from '@/lib/posts';
+import { getSortedPostsData } from '../lib/posts';
 import { GetStaticProps } from 'next';
 import Head from 'next/head';
 import Link from 'next/link';
@@ -51,5 +51,3 @@ export const getStaticProps: GetStaticProps = async () => {
     },
   };
 };
-
-// export async function getStaticProps() {}
